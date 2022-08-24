@@ -108,22 +108,27 @@
   margin-left: 0.5rem;
 }
 
+.inputBox {
+  width: 200px;
+  height: 30px;
+  margin: 5px;
+}
+
+.button {
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
     flex-direction: column;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  .card,
-  .footer {
-    border-color: #222;
-  }
-  .code {
-    background: #111;
-  }
-  .logo img {
-    filter: invert(1);
   }
 }
